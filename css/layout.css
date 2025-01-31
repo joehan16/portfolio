@@ -1,0 +1,571 @@
+body {
+  background-color: #efebd9;
+}
+/* header på alle sider */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #efebd9;
+}
+
+/* @media (max-width: 768px) { */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #efebd9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+header {
+  background-color: #efebd9;
+
+  margin-top: 1.5em;
+  padding-right: 0.8em;
+}
+
+/* Logo */
+.logo img {
+  height: 60px;
+  display: flex;
+  padding-right: 3em;
+}
+
+/* Navigation links */
+.nav-links {
+  position: fixed;
+  top: 35px;
+  right: 20px;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  transform: translateY(0);
+  transition: transform 0.5s ease-out;
+  z-index: 1000;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  padding: 7px 18px;
+  transition: 0.3s ease-in-out;
+  background-color: #aa5555; /* Baggrundsfarve */
+  color: white; /* Tekstfarve */
+  text-decoration: none; /* Fjern understregning */
+  font-size: 8px; /* Størrelse på teksten */
+  font-weight: bold; /* Gør teksten fed */
+  border: 2px solid white; /* Hvid kant */
+  border-radius: 5px; /* Runde hjørner */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Skygge */
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s; /* Glidende effekt */
+}
+
+/* Hover-effekt */
+.nav-links a:hover {
+  background-color: #8d4d48;
+}
+
+.overskrift {
+  padding-left: 70px;
+  padding-right: 35px;
+  margin-top: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+}
+.p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+/* img af størrelse og placering */
+
+.pic {
+  height: auto;
+  align-content: center;
+  margin-top: 4em;
+  margin-bottom: 3em;
+  padding-left: 12%;
+}
+
+.pic1 {
+  height: auto;
+  align-content: center;
+  margin-bottom: 3em;
+  padding-left: 3%;
+}
+
+.tekstprojekt {
+  align-content: center;
+  padding-left: 16%;
+  margin-top: 4em;
+}
+.tema1 {
+  padding-left: 21%;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.tema2 {
+  padding-left: 21%;
+  margin-bottom: 3em;
+}
+.tema3 {
+  padding-left: 21%;
+  margin-bottom: 2em;
+}
+.tema4 {
+  padding-left: 21%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.tema5 {
+  padding-left: 21%;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.tema4_ {
+  padding-left: 1%;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.tema5__ {
+  padding-left: 1%;
+  margin-bottom: 3em;
+}
+
+.omtekst {
+  padding-left: 11%;
+  margin-top: 6em;
+  margin-bottom: 4em;
+}
+.ommigbillede {
+  padding-left: 3em;
+}
+.cvbillede {
+  padding-left: 3em;
+  margin-top: 4em;
+}
+.tema1 img {
+  display: flex;
+  padding: 0.1em 0.1em;
+  /* skygge på knapperne */
+  box-shadow: 5px 5px 7px 1px #c45656;
+  cursor: pointer; /* Ændrer markøren til en hånd, når man peger */
+  transition: background-color 0.3s; /* Glat overgangseffekt */
+}
+.tema1 img:hover {
+  background-color: #883333; /* Ændrer knapfarven ved hover */
+  opacity: 0.5;
+}
+.tema2 img {
+  display: flex;
+  padding: 0.1em 0.1em;
+  /* skygge på knapperne */
+  box-shadow: 5px 5px 7px 1px #c45656;
+  cursor: pointer; /* Ændrer markøren til en hånd, når man peger */
+
+  transition: background-color 0.3s; /* Glat overgangseffekt */
+}
+.tema2 img:hover {
+  background-color: #883333; /* Ændrer knapfarven ved hover */
+  opacity: 0.5;
+}
+.tema3 img {
+  display: flex;
+  padding: 0.1em 0.1em;
+  /* skygge på knapperne */
+  box-shadow: 5px 5px 7px 1px #c45656;
+  cursor: pointer; /* Ændrer markøren til en hånd, når man peger */
+  transition: background-color 0.3s; /* Glat overgangseffekt */
+}
+.tema3 img:hover {
+  background-color: #883333; /* Ændrer knapfarven ved hover */
+  opacity: 0.5;
+}
+.tema4 img {
+  display: flex;
+  padding: 0.1em 0.1em;
+  /* skygge på knapperne */
+  box-shadow: 5px 5px 7px 1px #c45656;
+  cursor: pointer; /* Ændrer markøren til en hånd, når man peger */
+  transition: background-color 0.3s; /* Glat overgangseffekt */
+}
+.tema4 img:hover {
+  background-color: #883333;
+  opacity: 0.5; /* Ændrer knapfarven ved hover */
+}
+.tema5 img {
+  display: flex;
+  padding: 0.1em 0.1em;
+  /* skygge på knapperne */
+  box-shadow: 5px 5px 7px 1px #c45656;
+  cursor: pointer; /* Ændrer markøren til en hånd, når man peger */
+  transition: background-color 0.3s; /* Glat overgangseffekt */
+}
+.tema5 img:hover {
+  background-color: #883333; /* Ændrer knapfarven ved hover */
+  opacity: 0.5;
+}
+
+.præsentationskort {
+  justify-content: center;
+  padding-left: 1em;
+  margin-top: 4em;
+}
+.yt {
+  justify-content: center;
+  padding-left: 1em;
+  margin-top: 4em;
+}
+.yt1 {
+  justify-content: center;
+  padding-left: 1em;
+  margin-top: 4em;
+}
+
+.tema2web {
+  justify-content: center;
+  padding-left: 1em;
+  margin-top: 4em;
+}
+.tema2mobil {
+  justify-content: center;
+  padding-left: 1em;
+  margin-top: 4em;
+}
+.tema3sketch {
+  justify-content: center;
+  padding-left: 3.4em;
+  margin-top: 4em;
+}
+.tema3italy {
+  justify-content: center;
+  padding-left: 3.4em;
+  margin-top: 4em;
+  margin-bottom: 3em;
+}
+.spil {
+  justify-content: center;
+  padding-left: 3.4em;
+  margin-top: 4em;
+  margin-bottom: 3em;
+}
+.elius {
+  justify-content: center;
+  padding-left: 1em;
+  margin-top: 4em;
+}
+
+/* knapper som cv og tilbage */
+.cvknap {
+  padding-left: 4.5em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+.cvknap:hover {
+  box-shadow: 5px 8px 10px #883333(0, 0, 0, 0.4); /* Gør skyggen større ved hover */
+  opacity: 0.5;
+}
+
+.tilbageknap {
+  padding-left: 4.5em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+.tilbageknap1 {
+  padding-left: 4.5em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+.kontaktpic {
+  height: auto;
+
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding-left: 2.8em;
+}
+
+footer {
+  background-color: #d78b8b;
+  padding: 25px;
+
+  text-align: center;
+  color: #f9f8f8;
+}
+
+@media (width > 500px) {
+  /* .logo img {
+      height: 60px;
+      display: flex;
+      padding-right: 3em;
+    }
+
+   
+    .nav-links {
+      position: fixed;
+      top: 35px;
+      right: 20px;
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      transform: translateY(0);
+      transition: transform 0.5s ease-out;
+      z-index: 1000;
+    }
+
+    .nav-links li {
+      display: inline;
+    }
+
+    /* .nav-links a {
+      padding: 7px 18px;
+      transition: 0.3s ease-in-out;
+      background-color: #aa5555; 
+      color: white; 
+      text-decoration: none; 
+      font-size: 8px; 
+      font-weight: bold; 
+      border: 2px solid white; 
+      border-radius: 5px; 
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    } */
+
+  /* Hover-effekt */
+  /* .nav-links a:hover {
+      background-color: #8d4d48;
+    } */
+  .pic img {
+    width: 500px;
+    margin-top: 5em;
+    padding-left: 13em;
+  }
+  .pic1 img {
+    width: 500px;
+    margin-top: 8em;
+    padding-right: 10em;
+  }
+  .kontaktpic {
+    padding-left: 23em;
+    margin-top: 4.5em;
+  }
+
+  .grid_index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 100px;
+  }
+  .tekstprojekt {
+    padding-left: 34em;
+    margin-top: 7em;
+  }
+  .tema1 {
+    width: 450px;
+    margin-top: 6.5em;
+  }
+
+  .tema2 {
+    width: 450px;
+    margin-top: 6.5em;
+    padding-right: 19em;
+  }
+  .tema3 {
+    width: 450px;
+    margin-top: 4em;
+  }
+  .tema4 {
+    width: 450px;
+    margin-top: 4em;
+  }
+  .tema5 {
+    width: 450px;
+    margin-top: 4em;
+    padding-left: 85%;
+    margin-bottom: 5em;
+  }
+  .grid_index1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 100px;
+  }
+  .spil img {
+    justify-content: center;
+    padding-left: 2em;
+    margin-top: 5em;
+    margin-bottom: 3em;
+  }
+
+  .omtekst img {
+    width: 500px;
+    margin-top: 13.5em;
+    padding-left: 11em;
+  }
+  .ommigbillede img {
+    width: 500px;
+    margin-top: 8em;
+    padding-right: 8em;
+  }
+  .grid_index5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 100px;
+  }
+  .cvbillede {
+    padding-left: 23em;
+    margin-top: 4.5em;
+  }
+  .overskrift {
+    padding-left: 70px;
+    padding-right: 35px;
+    margin-top: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+  }
+  .p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    margin-top: 6em;
+  }
+  .p_ {
+    margin-top: 4em;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+  }
+
+  .p__ {
+    margin-top: 10em;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+  }
+  .p___ {
+    margin-top: 10em;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+  }
+  .p____ {
+    margin-top: 12em;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+  }
+  .p_____ {
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+  }
+  .p______ {
+    margin-top: 2.5em;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+  }
+  .grid_1-1-900 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .videre {
+    padding-left: 19.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 13px;
+  }
+  .videre_ {
+    padding-left: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 13px;
+  }
+  .videre__ {
+    padding-left: 19.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 13px;
+    margin-top: -3em;
+  }
+  .præsentationskort {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+  .yt {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+  .tema2mobil {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+  .tema2web {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+  .tema3sketch {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+  .tema3italy {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+  .spil {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+  .yt1 {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+  .elius {
+    width: 600;
+    justify-content: center;
+    padding-left: 35%;
+    margin-top: 4em;
+  }
+}
