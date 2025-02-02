@@ -8,7 +8,7 @@ body {
   background-color: #efebd9;
 }
 
-/* @media (max-width: 768px) { */
+@media (max-width: 768px) {
 body {
   font-family: Arial, sans-serif;
   background-color: #efebd9;
@@ -28,7 +28,8 @@ header {
 .logo img {
   height: 60px;
   display: flex;
-  padding-right: 3em;
+  
+  padding-left: 1em;
 }
 
 /* Navigation links */
@@ -76,28 +77,115 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   color: #4e0a0e;
 }
+
 .p {
   font-family: Arial, Helvetica, sans-serif;
   color: #4e0a0e;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.p_{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.p__{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.overskrift{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  font-size: 1.7em;
+  align-content: center;
+}
+
+.overskrift1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  font-size: 1.5em;
+  padding-left: 2.4em;
+  margin-top: 2em;
+}
+.p___{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.p____{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.p_____{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.videre{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e0a0e;
+  padding-left: 7px;
+  padding-right: 50px;
+  font-size: 75%;
+  
+}
+.videre2{
+  padding-left: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 11px;
+    margin-top: 1em;
+}
+.videre1{
+  padding-left: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 11px;
+    margin-top: 1em;
+}
+.videre3{
+  padding-left: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 11px;
+    margin-top: 1em;
 }
 
 /* img af størrelse og placering */
 
 .pic {
-  height: auto;
   align-content: center;
   margin-top: 4em;
-  margin-bottom: 3em;
-  padding-left: 12%;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}
+
+.pic img {
+  max-width: 100%;
 }
 
 .pic1 {
-  height: auto;
   align-content: center;
   margin-bottom: 3em;
-  padding-left: 3%;
+
+  margin-top: 3em;
+}
+
+.pic1 img {
+  max-width: 100%;
 }
 
 .tekstprojekt {
@@ -105,36 +193,48 @@ header {
   padding-left: 16%;
   margin-top: 4em;
 }
+
 .tema1 {
-  padding-left: 21%;
-  margin-top: 2em;
+  width: 350px;
+  height: auto;
+  margin-left: 70px;
   margin-bottom: 3em;
 }
+
 .tema2 {
-  padding-left: 21%;
+  width: 350px;
+  height: auto;
+  margin-left: 70px;
   margin-bottom: 3em;
 }
 .tema3 {
-  padding-left: 21%;
-  margin-bottom: 2em;
+  width: 350px;
+  height: auto;
+  margin-left: 70px;
+  margin-bottom: 3em;
 }
 .tema4 {
-  padding-left: 21%;
-  margin-top: 1em;
-  margin-bottom: 2em;
+  width: 350px;
+  height: auto;
+  margin-left: 70px;
+  margin-bottom: 3em;
 }
 .tema5 {
-  padding-left: 21%;
-  margin-top: 1em;
+  width: 350px;
+  height: auto;
+  margin-left: 70px;
   margin-bottom: 3em;
 }
 .tema4_ {
-  padding-left: 1%;
+  width: 350px;
+  height: auto;
+  margin-left: 70px;
   margin-bottom: 3em;
-  margin-top: 3em;
 }
 .tema5__ {
-  padding-left: 1%;
+  width: 350px;
+  height: auto;
+  margin-left: 70px;
   margin-bottom: 3em;
 }
 
@@ -142,10 +242,20 @@ header {
   padding-left: 11%;
   margin-top: 6em;
   margin-bottom: 4em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}
+.omtekst img {
+  max-width: 100%;
 }
 .ommigbillede {
-  padding-left: 3em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
 }
+.ommigbillede img {
+  max-width: 100%;
+}
+
 .cvbillede {
   padding-left: 3em;
   margin-top: 4em;
@@ -259,6 +369,7 @@ header {
   justify-content: center;
   padding-left: 1em;
   margin-top: 4em;
+  
 }
 
 /* knapper som cv og tilbage */
@@ -269,7 +380,7 @@ header {
 }
 
 .cvknap:hover {
-  box-shadow: 5px 8px 10px #883333(0, 0, 0, 0.4); /* Gør skyggen større ved hover */
+  box-shadow: 5px 8px 10px #883333; 
   opacity: 0.5;
 }
 
@@ -279,10 +390,10 @@ header {
   margin-top: 5em;
 }
 
-.tilbageknap1 {
-  padding-left: 4.5em;
-  margin-bottom: 5em;
-  margin-top: 5em;
+.tilbageknap1 img{
+  
+  margin-bottom: 4em;
+  margin-top: 3em;
 }
 .kontaktpic {
   height: auto;
@@ -299,72 +410,86 @@ footer {
   text-align: center;
   color: #f9f8f8;
 }
-
+}
 @media (width > 500px) {
-  /* .logo img {
-      height: 60px;
-      display: flex;
-      padding-right: 3em;
-    }
 
-   
-    .nav-links {
-      position: fixed;
-      top: 35px;
-      right: 20px;
-      gap: 15px;
-      margin: 0;
-      padding: 0;
-      display: inline-block;
-      transform: translateY(0);
-      transition: transform 0.5s ease-out;
-      z-index: 1000;
-    }
-
-    .nav-links li {
-      display: inline;
-    }
-
-    /* .nav-links a {
-      padding: 7px 18px;
-      transition: 0.3s ease-in-out;
-      background-color: #aa5555; 
-      color: white; 
-      text-decoration: none; 
-      font-size: 8px; 
-      font-weight: bold; 
-      border: 2px solid white; 
-      border-radius: 5px; 
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-      text-align: center;
-      transition: transform 0.2s, box-shadow 0.2s;
-    } */
-
+  .logo img {
+    height: auto;
+    display: flex;
+    width: 19%;
+    padding-left: 6em;
+    margin-top: 1em;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    transform: translateY(0);
+    transition: transform 0.5s ease-out;
+    z-index: 1000;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .nav-links a {
+    padding: 9px 50px;
+    transition: 0.3s ease-in-out;
+    background-color: #aa5555; /* Baggrundsfarve */
+    color: white; /* Tekstfarve */
+    text-decoration: none; /* Fjern understregning */
+    font-size: 15px; /* Størrelse på teksten */
+    font-weight: bold; /* Gør teksten fed */
+    border: 2px solid white; /* Hvid kant */
+    border-radius: 5px; /* Runde hjørner */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Skygge */
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s; /* Glidende effekt */
+    gap: 10%;
+  }
+  
   /* Hover-effekt */
-  /* .nav-links a:hover {
-      background-color: #8d4d48;
-    } */
+  .nav-links a:hover {
+    background-color: #8d4d48;
+  }
+  
   .pic img {
-    width: 500px;
-    margin-top: 5em;
-    padding-left: 13em;
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+    padding-left: 9em;
+    margin-top: 10em;
+  }
+  
+  .grid_index {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    display: grid;
+    gap: 1em;
   }
   .pic1 img {
-    width: 500px;
-    margin-top: 8em;
-    padding-right: 10em;
+    max-width: 100%;
+    height: auto;
+    width: 81%;
+    padding-left: 3em;
+    margin-top: 6em;
   }
+  
   .kontaktpic {
-    padding-left: 23em;
-    margin-top: 4.5em;
+    height: auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    padding-left: 21.5em;
   }
-
-  .grid_index {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 100px;
-  }
+  
   .tekstprojekt {
     padding-left: 34em;
     margin-top: 7em;
@@ -372,26 +497,29 @@ footer {
   .tema1 {
     width: 450px;
     margin-top: 6.5em;
+    margin-left: 200px;
   }
-
+  
   .tema2 {
     width: 450px;
     margin-top: 6.5em;
-    padding-right: 19em;
+    margin-left: 10px;
   }
   .tema3 {
     width: 450px;
-    margin-top: 4em;
+    margin-top: 1em;
+    margin-left: 200px;
   }
   .tema4 {
     width: 450px;
-    margin-top: 4em;
+    margin-top: 1em;
+    margin-left: 10px;
   }
   .tema5 {
     width: 450px;
-    margin-top: 4em;
-    padding-left: 85%;
-    margin-bottom: 5em;
+    margin-top: 1em;
+    padding-left: 74%;
+    margin-bottom: 10em;
   }
   .grid_index1 {
     display: grid;
@@ -405,22 +533,26 @@ footer {
     margin-top: 5em;
     margin-bottom: 3em;
   }
-
+  
   .omtekst img {
-    width: 500px;
-    margin-top: 13.5em;
-    padding-left: 11em;
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+    padding-left: 7em;
+    margin-top: 15em;
   }
   .ommigbillede img {
-    width: 500px;
-    margin-top: 8em;
-    padding-right: 8em;
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+    padding-left: 3em;
+    margin-top: 3em;
   }
   .grid_index5 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 100px;
+    /* gap: 100px; */
   }
   .cvbillede {
     padding-left: 23em;
@@ -449,7 +581,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: #4e0a0e;
   }
-
+  
   .p__ {
     margin-top: 10em;
     font-size: 20px;
@@ -481,25 +613,50 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: #4e0a0e;
   }
-  .p______ {
+  .p______{
     margin-top: 2.5em;
     font-size: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
     font-family: Arial, Helvetica, sans-serif;
     color: #4e0a0e;
   }
-  .grid_1-1-900 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
-  .videre {
-    padding-left: 19.5em;
+  .p_______ {
+    margin-top: 2.5em;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
     font-family: Arial, Helvetica, sans-serif;
     color: #4e0a0e;
-    font-size: 13px;
+  }
+  
+  .videre3{
+    padding-left: 46em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 11px;
+    margin-top: 1em;
+  }
+  .videre{
+    padding-left: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 11px;
+    margin-top: 1em;
+  }
+  .videre1{
+    padding-left: 23em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 11px;
+    margin-top: -4em;
+  }
+  .videre2{
+    padding-left: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
+    font-size: 11px;
+    margin-top: 1em;
   }
   .videre_ {
     padding-left: 15em;
@@ -515,57 +672,88 @@ footer {
     margin-top: -3em;
   }
   .præsentationskort {
-    width: 600;
+    width: 600%;
     justify-content: center;
     padding-left: 35%;
     margin-top: 4em;
   }
   .yt {
-    width: 600;
+    width: 600%;
     justify-content: center;
     padding-left: 35%;
     margin-top: 4em;
   }
   .tema2mobil {
-    width: 600;
+    width: 600%;
     justify-content: center;
     padding-left: 35%;
     margin-top: 4em;
   }
   .tema2web {
-    width: 600;
+    width: 600%;
     justify-content: center;
     padding-left: 35%;
     margin-top: 4em;
   }
   .tema3sketch {
-    width: 600;
+    width: 600%;
     justify-content: center;
     padding-left: 35%;
     margin-top: 4em;
   }
   .tema3italy {
-    width: 600;
+    width: 600%;
     justify-content: center;
     padding-left: 35%;
     margin-top: 4em;
   }
-  .spil {
-    width: 600;
+  .spil img {
     justify-content: center;
-    padding-left: 35%;
-    margin-top: 4em;
+    padding-left: 18%;
+    margin-top: 4em; */
+    max-width: 100%;
+    width: 60%;
   }
+  
   .yt1 {
-    width: 600;
+    width: 600%;
     justify-content: center;
     padding-left: 35%;
     margin-top: 4em;
+  }
+  .overskrift1{
+    padding-left: 70px;
+    padding-right: 35px;
+    margin-top: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e0a0e;
   }
   .elius {
-    width: 600;
+    width: 600%;
     justify-content: center;
     padding-left: 35%;
     margin-top: 4em;
+  }
+  footer {
+    background-color: #d78b8b;
+    padding: 25px;
+    
+    text-align: center;
+    color: #f9f8f8;
+  }
+  .cvknap{
+    margin-top: 5em;
+    margin-bottom: 7em;
+    padding-left: 7em;
+    
+  }
+  .tilbageknap{margin-top: 4em;
+    margin-bottom: 4em;
+    padding-left: 7em;}
+  }
+  .tilbageknap1{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-left: 7em;
   }
 }
